@@ -1,2 +1,2 @@
-# node.js-study
-node.js_NodeBird 
+# node.js study
+NodeBird_node.js 
