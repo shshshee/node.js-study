@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="timeline">
+    <div class="followings half">
+        <h2>유저 목록</h2>
+        {% for user in users %}
+        <div>{{user.nick}}</div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f613d76-e8f1-49ad-bd76-1bf94648dc3f" name="Default Changelist" comment="유저 검색기능 추가 (진행중)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/node.js-study" />
+  </component>
+  <component name="ProjectId" id="1kxbM2VoWgPTFMgjCZWaOOCIwCy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f613d76-e8f1-49ad-bd76-1bf94648dc3f" name="Default Changelist" comment="" />
+      <created>1606645137695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606645137695</updated>
+      <workItem from="1606645138764" duration="2515000" />
+      <workItem from="1606718163976" duration="5912000" />
+      <workItem from="1606926427550" duration="1046000" />
+      <workItem from="1606928105945" duration="198000" />
+      <workItem from="1607244975099" duration="10517000" />
+      <workItem from="1607786855401" duration="3020000" />
+      <workItem from="1607842108511" duration="12735000" />
+      <workItem from="1608205849908" duration="5357000" />
+      <workItem from="1608272932104" duration="4790000" />
+      <workItem from="1608305245997" duration="147000" />
+      <workItem from="1608306417018" duration="405000" />
+      <workItem from="1608306999428" duration="431000" />
+      <workItem from="1608436811318" duration="4295000" />
+      <workItem from="1608528786288" duration="1940000" />
+      <workItem from="1609423899741" duration="604000" />
+      <workItem from="1609858800191" duration="29000" />
+      <workItem from="1610345486892" duration="1882000" />
+      <workItem from="1610449461792" duration="19000" />
+      <workItem from="1610516572505" duration="5758000" />
+      <workItem from="1610694575046" duration="592000" />
+      <workItem from="1610816990970" duration="110000" />
+      <workItem from="1610879547877" duration="8178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="유저 검색기능 추가 (진행중)" />
+    <option name="LAST_COMMIT_MESSAGE" value="유저 검색기능 추가 (진행중)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="160" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610892979873">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="160" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.815@0.25.1440.815" timestamp="1610892979873" />
+    <state x="533" y="149" key="Vcs.Push.Dialog.v2" timestamp="1610893751271">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="533" y="149" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1610893751271" />
+    <state x="390" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610893745854">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="390" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.815@0.25.1440.815" timestamp="1610893745854" />
+    <state x="425" y="346" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610892786102">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="425" y="346" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.815@0.25.1440.815" timestamp="1610892786102" />
+    <state x="563" y="321" key="git4idea.ui.GitTagDialog" timestamp="1610893720281">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="563" y="321" key="git4idea.ui.GitTagDialog/0.25.1440.815@0.25.1440.815" timestamp="1610893720281" />
+    <state x="65" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1606648349706">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="65" y="150" width="670" height="676" key="search.everywhere.popup/0.25.1440.801@0.25.1440.801" timestamp="1606648349706" />
+  </component>
+</project>
