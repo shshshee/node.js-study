@@ -4,9 +4,39 @@
 <div class="timeline">
     <div class="followings half">
         <h2>유저 목록</h2>
-        {% for user in users %}
-        <div>{{user.nick}}</div>
+        {% for User in users %}
+        <div class="twit">
+            <input type="hidden" value="{{User.id}}" class="twit-user-id">
+            <div class="twit-author">{{User.nick}}</div>
+            {% if not followerIdList.includes(User.id) and User.id !== user.id %}
+            <button class="twit-follow">팔로우하기</button>
+            {% endif %}
+        </div>
         {% endfor %}
     </div>
 </div>
+{% endblock %}
+
+{% block script %}
+<script>
+    document.querySelectorAll('.twit-follow').forEach(function(tag) {
+        tag.addEventListener('click', function() {
+            const myId = document.querySelector('#my-id');
+            if (myId) {
+                const userId = tag.parentNode.querySelector('.twit-user-id').value;
+                if (userId !== myId.value) {
+                    if (confirm('팔로잉하시겠습니까?')) {
+                        axios.post(`/user/${userId}/follow`)
+                            .then(() => {
+                                location.reload();
+                            })
+                            .catch((err) => {
+                                console.error(err);
+                            });
+                    }
+                }
+            }
+        });
+    });
+</script>
 {% endblock %}
