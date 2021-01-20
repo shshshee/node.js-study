@@ -29,12 +29,11 @@ router.delete('/:id/delFollow', isLoggedIn, async(req,res,next) => {
         const user = await User.findOne({where: {id: req.user.id}});
         const myId = parseInt(req.user.id,10);
         console.log(myId);
+        console.log(req.params.id);
         if(user) {
-            await user.removeFollowing({
-                where:{
-                    followingId:req.params.id
-                }
-            });
+            const result = await user.removeFollowings(
+                    parseInt(req.params.id,10)
+            );
             res.json(result);
         } else {
             res.status(400).send('no user');

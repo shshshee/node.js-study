@@ -6,12 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -19,6 +22,7 @@
     <list default="true" id="6f613d76-e8f1-49ad-bd76-1bf94648dc3f" name="Default Changelist" comment="유저 검색기능 추가 (진행중)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1kxbM2VoWgPTFMgjCZWaOOCIwCy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -90,7 +96,8 @@
       <workItem from="1610879547877" duration="8844000" />
       <workItem from="1610895174658" duration="20000" />
       <workItem from="1611043121916" duration="12697000" />
-      <workItem from="1611062997707" duration="1085000" />
+      <workItem from="1611062997707" duration="1794000" />
+      <workItem from="1611118729840" duration="3161000" />
     </task>
     <task id="LOCAL-00001" summary="add follow &amp; delete follow">
       <created>1611063155437</created>
@@ -99,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611063155437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add follow &amp; delete follow">
+      <created>1611064115547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611064115547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,19 +124,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -139,10 +141,10 @@
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="160" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.815@0.25.1440.815" timestamp="1610892979873" />
-    <state x="533" y="149" key="Vcs.Push.Dialog.v2" timestamp="1611064093353">
+    <state x="533" y="149" key="Vcs.Push.Dialog.v2" timestamp="1611064138658">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="533" y="149" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1611064093353" />
+    <state x="533" y="149" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1611064138658" />
     <state x="390" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610893745854">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
