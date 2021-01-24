@@ -29,7 +29,7 @@
         <div class="twit">
             <input type="hidden" value="{{twit.User.id}}" class="twit-user-id">
             <input type="hidden" value="{{twit.id}}" class="twit-id">
-            <div class="twit-author">{{twit.User.nick}}</div>
+            <a class="twit-author" href="/post/{{twit.User.id}}/getPosting" >{{twit.User.nick}}</a>
             {% if not followerIdList.includes(twit.User.id) and twit.User.id !== user.id %}
             <button class="twit-follow">팔로우하기</button>
             {% endif %}
@@ -61,6 +61,7 @@
                 });
         });
     }
+
     document.querySelectorAll('.twit-follow').forEach(function(tag) {
         tag.addEventListener('click', function() {
             const myId = document.querySelector('#my-id');

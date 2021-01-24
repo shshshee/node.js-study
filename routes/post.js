@@ -4,7 +4,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 
-const { Post, Hashtag } = require('../models'); // 모델 가져오기
+const { Post, Hashtag,User } = require('../models'); // 모델 가져오기
 const {isLoggedIn} = require('./middlewares');
 
 const router = express.Router();
@@ -67,5 +67,29 @@ router.post('/', isLoggedIn, upload2.none(),async(req,res,next) => {
         next(error);
     }
 });
+
+// 해당 유저 포스팅 조회하기 라우터
+router.get('/:id/getPosting',async(req,res,next)=>{
+    try{
+        const posts = await Post.findAll(
+            {
+                include: {
+                    model: User,
+                    attributes:['id','nick'],
+                },
+                where:{userId:req.params.id},
+                order: [['createdAt','DESC']],
+            },
+        );
+        res.render('userPosting',{
+            title:'Nodebird',
+            twits:posts,
+        });
+
+    }catch(err){
+        console.error(err);
+        next(err);
+    }
+})
 
 module.exports = router;
