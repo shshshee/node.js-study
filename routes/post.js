@@ -92,4 +92,18 @@ router.get('/:id/getPosting',async(req,res,next)=>{
     }
 })
 
+// 본인 글 삭제하기
+router.delete('/:postId/deleteTwit',async(req,res,next)=>{
+    try{
+        const result = await Post.destroy(
+            {where:{id:req.params.postId}}
+        )
+        console.log("삭제결과::::"+result);
+        res.json(result);
+    }catch(err){
+        console.error(err);
+        next(err);
+    }
+})
+
 module.exports = router;
