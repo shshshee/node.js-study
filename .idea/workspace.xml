@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f613d76-e8f1-49ad-bd76-1bf94648dc3f" name="Default Changelist" comment="유저 검색기능 추가 (진행중)">
+      <change afterPath="$PROJECT_DIR$/views/error1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,11 @@
       <workItem from="1612594970270" duration="954000" />
       <workItem from="1612965284247" duration="26000" />
       <workItem from="1613368126537" duration="8543000" />
-      <workItem from="1613489148023" duration="612000" />
+      <workItem from="1613489148023" duration="1047000" />
+      <workItem from="1613576003930" duration="1076000" />
+      <workItem from="1614765714766" duration="7000" />
+      <workItem from="1615301907214" duration="558000" />
+      <workItem from="1615303980499" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="add follow &amp; delete follow">
       <created>1611063155437</created>
@@ -141,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612015873945</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add photo [Added]">
+      <created>1613489815599</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613489815599</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,17 +176,18 @@
     <MESSAGE value="delete follow [Fixed]" />
     <MESSAGE value="select user posts [Added]" />
     <MESSAGE value="delete my post [Added]" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete my post [Added]" />
+    <MESSAGE value="add photo [Added]" />
+    <option name="LAST_COMMIT_MESSAGE" value="add photo [Added]" />
   </component>
   <component name="WindowStateProjectService">
     <state x="160" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613375531912">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="160" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.815@0.25.1440.815" timestamp="1613375531912" />
-    <state x="533" y="149" key="Vcs.Push.Dialog.v2" timestamp="1612016145607">
+    <state x="533" y="149" key="Vcs.Push.Dialog.v2" timestamp="1613489822318">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="533" y="149" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1612016145607" />
+    <state x="533" y="149" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1613489822318" />
     <state x="390" y="410" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610893745854">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
